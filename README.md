@@ -28,19 +28,25 @@ frontend/ # React + TypeScript + Tailwind app
 1. Go to the **backend** folder:
    ```bash
    cd backend
-2. Start the server:
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the server:
    ```bash
    npm run dev
-3. The backend runs by default on http://localhost:3000
+4. The backend runs by default on http://localhost:3000
 
 ### Frontend
 1. Go to the **frontend** folder:
    ```bash
    cd frontend
-2. Start the app:
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the app:
    ```bash
    npm run dev
-3. The frontend is available at http://localhost:5173 (or the port displayed by Vite).
+4. The frontend is available at http://localhost:5173 (or the port displayed by Vite).
 
 ---
 
