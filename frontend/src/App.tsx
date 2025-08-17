@@ -1,5 +1,5 @@
 import "./App.css";
-import AjaxConverter from "./components/AjaxConverter";
+import SSEConverter from "./components/SSEConverter";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <h1 className="text-4xl font-bold text-blue-500 my-4">
           Roman numeral converter
         </h1>
-        <AjaxConverter />
+        <SSEConverter />
       </div>
     </main>
   );
